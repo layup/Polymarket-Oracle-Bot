@@ -1,8 +1,21 @@
 
 
+
+
 # ignore all log files
 *.log
 
 # Environments
 *.env
 *.venv
+
+
+.pytest_cache
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+env/
+venv/
+env/
+*.egg-info
